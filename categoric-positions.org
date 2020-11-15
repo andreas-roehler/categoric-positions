@@ -1,0 +1,18 @@
+* category theory is a synonym for algebra of functions
+
+* The arrow represents function application
+
+* Objects are types
+
+* Types might be dependent types
+
+* Morphism describe aspects of the type of functions.
+
+* Set terminology isn't needed,
+  but might be used in the context of dependend types
+
+* Make sure Rusell's paradox is avoided:
+  the term being defined can't be part of the definition.
+
+
+  
