@@ -1,18 +1,26 @@
-* category theory is a synonym for algebra of functions
+* A category in math represents a function application.
+  It is composed by the types of a functions body, alongside with the
+  type of its arguments and results. When represented as a graph, a
+  composition containing an arrow may describe a function of type D
+  taking arguments of type A while results are of type B.
 
-* The arrow represents function application
+  D: (A -> B)
+  
+  Graphically the arrow represents the function and the order of
+  application.
 
-* Objects are types
+* Function objects and argument objects are represented as types.
 
-* Types might be dependent types
+* Rules of definition
 
-* Morphism describe aspects of the type of functions.
+  All terms used by a definition have to be defined before. No
+  self-reference is permitted.
 
-* Set terminology isn't needed,
-  but might be used in the context of dependend types
+  That way Rusell's paradox is avoided.
 
-* Make sure Rusell's paradox is avoided:
-  the term being defined can't be part of the definition.
+* Types are composed by rules
 
-
+* The type of a natural number relies on the notion of equality.
+  Natural numbers are symbols standing for distinction of objects of a
+  comparable type. The succession of these distincting provides order.
   
