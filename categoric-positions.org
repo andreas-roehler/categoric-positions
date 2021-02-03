@@ -4,7 +4,7 @@
   composition containing an arrow may describe a function of type D
   taking arguments of type A while results are of type B.
 
-  D: (A -> B)
+  D :: (A -> B)
   
   Graphically the arrow represents the function and the order of
   application.
@@ -13,9 +13,12 @@
 
 * Rules of definition
 
-  All terms used by a definition have to be defined before. No
-  self-reference is permitted.
+  All terms used by a definition have to be defined before.
 
+* A process can't refer to its final result, using it in its own
+  computation.
+
+  A task "Give me the set of all sets" can't comprise these "Set of all set".
   That way Rusell's paradox is avoided.
 
 * Types are composed by rules
